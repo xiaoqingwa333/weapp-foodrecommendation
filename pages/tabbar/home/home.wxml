@@ -1,0 +1,19 @@
+<view>
+  <van-row custom-class="row">
+    <van-col span="4">
+      <view class="row_left">
+        <image class="weather_icon" src="{{icon}}"></image>
+        <view class="weather_temp">{{ temp }} ℃</view>
+      </view>
+    </van-col>
+    <van-col span="20">
+      <view class="head_search" bindtap="toSearch">
+        <view class="text_search colorGray">查找美食或店铺</view>
+        <icon class="icon_search" type='search' size="15"></icon>
+      </view>
+    </van-col>
+  </van-row>
+  
+
+  
+</view>
